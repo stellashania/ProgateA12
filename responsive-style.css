@@ -1,0 +1,62 @@
+@media all and (max-width: 1000px) {
+    .profile-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .body .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .course {
+        width: 45%;
+        position: relative;
+        margin: 20px;
+    }
+}
+@media all and (max-width: 670px) {
+    header .container .menu {
+        display: none;
+    }
+    header .container {
+        justify-content: space-between;
+    }
+    .container span img {
+        display: block;
+    }
+    main {
+        padding-bottom: 10px;
+    }
+    .main-container {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .profile-picture {
+        width: 80%;
+        height: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .profile-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .btn-update-profile {
+        margin-bottom: 50px;
+    }
+    .body .container {
+        display: block;
+        margin: 0 auto;
+    }
+    .course {
+        width: 80%;
+        margin: 20px auto;
+    }
+    footer {
+        height: 350px;
+    }
+    .footer-container {
+        display: block;
+    }
+}
